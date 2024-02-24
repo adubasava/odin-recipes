@@ -1,0 +1,49 @@
+﻿body {
+    line-height: 25px;
+    background-color: aliceblue;
+}
+
+h1 {
+    color:blueviolet;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: circle;
+}
+
+ul, ol {
+    background-color: rgb(233, 169, 231);
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid blueviolet;
+}
+
+.button {
+    display: inline-block;    
+    padding: 5px;
+    border: 1px solid blueviolet;
+    border-radius: 4px;
+    cursor: pointer;    
+}
+    
+.button:hover {    
+    background-color: blueviolet;    
+    color: white;
+}
+
+p {
+    border: 1px solid blueviolet;
+    padding: 5px;
+    background-color: white;
+}
+
+img {
+    height: 400px;
+    width: auto;
+    margin-left: 10%;
+}
